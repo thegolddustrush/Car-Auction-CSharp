@@ -1,0 +1,5 @@
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\bin\CarAuction.dll
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\bin\CarAuction.pdb
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Debug\CarAuction.dll
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Debug\CarAuction.pdb

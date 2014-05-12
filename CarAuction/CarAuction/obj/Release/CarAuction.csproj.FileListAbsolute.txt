@@ -1,0 +1,7 @@
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\bin\CarAuction.dll
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\bin\CarAuction.XmlSerializers.dll
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\bin\CarAuction.pdb
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Release\CarAuction.dll
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Release\CarAuction.pdb
+C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Release\CarAuction.XmlSerializers.dll

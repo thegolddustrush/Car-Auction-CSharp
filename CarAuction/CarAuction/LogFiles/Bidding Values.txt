@@ -1,0 +1,4 @@
+User ID = 4, Car ID = 2, Value = R
+User ID = 4, Car ID = 3, Value = R 600000
+User ID = 1, Car ID = 3, Value = R 1000000, Name = Darian
+User ID = 8, Car ID = 14, Value = R 700000, Name = Ephraim
