@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.OleDb;
+using System.Data.SqlClient;
 
 namespace CarAuction.Code
 {
@@ -130,7 +131,7 @@ namespace CarAuction.Code
                 //Creates a string format for the values to passed into the placeholders
                 //Executes the query which is called
                 this.ConnectToDatabase();
-                OleDbDataReader reader = this.ExecuteQuery(string.Format(SelectSQLID, this.Email, this.Password));
+                SqlDataReader reader = this.ExecuteQuery(string.Format(SelectSQLID, this.Email, this.Password));
                 
                 if (reader.Read())
                 {
@@ -163,7 +164,7 @@ namespace CarAuction.Code
                 //Creates a string format for the values to passed into the placeholders
                 //Executes the query which is called
                 this.ConnectToDatabase();
-                OleDbDataReader reader = this.ExecuteQuery(string.Format(SelectSQLName, this.Email, this.Password));
+                SqlDataReader reader = this.ExecuteQuery(string.Format(SelectSQLName, this.Email, this.Password));
                 if (reader.Read())
                 {
                     string name = reader.GetString(0);

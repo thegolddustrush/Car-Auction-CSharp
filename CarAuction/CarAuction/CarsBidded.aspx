@@ -94,10 +94,11 @@
                 NavigateUrl='<%# string.Format("~/Auction.aspx?CarID={0}", HttpUtility.UrlEncode(Eval("carID").ToString())) %>'>Bid for this Vehicle</asp:HyperLink>
         </ItemTemplate>
     </asp:DataList>
-    <asp:AccessDataSource ID="AccessDataSourceCarPics" runat="server" DataFile="~/App_Data/Biding.accdb"
-        
+    <asp:SqlDataSource ID="AccessDataSourceCarPics" runat="server" 
+                  DataSourceMode="DataReader"
+          ConnectionString="<%$ ConnectionStrings:ApplicationServices%>"
         SelectCommand="SELECT CarInformation.carID, CarInformation.brand, CarInformation.model, CarInformation.[year], CarInformation.Kilometers, CarInformation.startingBid, CarInformation.description, CarInformation.photo, CarInformation.closingDate, CarInformation.estValue, MAX(BidInformation.bid) AS Expr1 FROM (CarInformation INNER JOIN BidInformation ON CarInformation.carID = BidInformation.carID) GROUP BY CarInformation.carID, CarInformation.brand, CarInformation.model, CarInformation.[year], CarInformation.Kilometers, CarInformation.startingBid, CarInformation.description, CarInformation.photo, CarInformation.closingDate, CarInformation.estValue">
-    </asp:AccessDataSource>
+    </asp:SqlDataSource>
     <br />
     <br />
     </form>

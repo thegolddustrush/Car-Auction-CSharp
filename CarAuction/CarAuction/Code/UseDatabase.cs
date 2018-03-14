@@ -5,6 +5,7 @@ using System.Web;
 using System.Data.OleDb;
 using System.Data;
 using System.Configuration;
+using System.Data.SqlClient;
 
 namespace CarAuction
 {
@@ -13,7 +14,7 @@ namespace CarAuction
     ///
     public class UseDatabase<T> where T: class
     {
-        OleDbConnection conn;
+        SqlConnection conn;
         string databasePath = "";
 
         public UseDatabase()
@@ -25,7 +26,8 @@ namespace CarAuction
         //Method that creates a database connection and opens it
         public void ConnectToDatabase()
         {
-            conn = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" + databasePath + ";");
+            conn = new SqlConnection();//(@"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" + databasePath + ";");
+            conn.ConnectionString = "Data Source=localhost\\sqlexpress;Initial Catalog=auction;Integrated Security=True;";
             conn.Open();
         }
 
@@ -40,8 +42,11 @@ namespace CarAuction
         {
             try
             {
-                OleDbCommand cmd = conn.CreateCommand();
-                cmd.CommandText = query;
+                //OleDbCommand cmd = conn.CreateCommand();
+                SqlCommand cmd = new SqlCommand(query,conn);
+
+                //cmd.CommandText = query;
+                cmd.CommandType = CommandType.Text;
                 cmd.ExecuteNonQuery();
                 ////Returning true indicates success
                 return true;
@@ -55,12 +60,13 @@ namespace CarAuction
         }
 
         //Method use to execute query and returns he result if any.
-        public OleDbDataReader ExecuteQuery(String query)
+        public SqlDataReader ExecuteQuery(String query)
         {
             try
             {
-                OleDbCommand cmd = conn.CreateCommand();
-                cmd.CommandText = query;
+                //OleDbCommand cmd = conn.CreateCommand();
+                SqlCommand cmd = new SqlCommand(query, conn);
+                //cmd.CommandText = query;
                 return cmd.ExecuteReader();
             }
             catch (OleDbException odbe)

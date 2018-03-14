@@ -13,5 +13,10 @@ namespace CarAuction
         {
 
         }
+
+        protected void DataListDisplayAllCar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
