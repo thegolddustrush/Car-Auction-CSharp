@@ -78,9 +78,15 @@
                 NavigateUrl='<%# string.Format("~/Auction.aspx?CarID={0}", HttpUtility.UrlEncode(Eval("carID").ToString())) %>'>Bid for this Vehicle</asp:HyperLink>
         </ItemTemplate>
     </asp:DataList>
-    <asp:AccessDataSource ID="AccessDataSourceAllCarPictures" runat="server" 
-        DataFile="~/App_Data/Biding.accdb" 
-        SelectCommand="SELECT * FROM [CarInformation]"></asp:AccessDataSource>
+
+       <asp:SqlDataSource
+          id="AccessDataSourceAllCarPictures"
+          runat="server"
+          DataSourceMode="DataReader"
+          ConnectionString="<%$ ConnectionStrings:ApplicationServices%>"
+          SelectCommand="SELECT * FROM [CarInformation]">
+      </asp:SqlDataSource>
+ 
     <br />
     <br />
     </form>

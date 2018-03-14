@@ -3,3 +3,10 @@ C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects
 C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Debug\CarAuction.dll
 C:\Documents and Settings\Darian Jeptha\my documents\visual studio 2010\Projects\CarAuction\CarAuction\obj\Debug\CarAuction.pdb
+C:\opt\gitdev\Car-Auction-CSharp\CarAuction\CarAuction\bin\CarAuction.dll.config
+C:\opt\gitdev\Car-Auction-CSharp\CarAuction\CarAuction\bin\CarAuction.dll
+C:\opt\gitdev\Car-Auction-CSharp\CarAuction\CarAuction\bin\CarAuction.pdb
+C:\opt\gitdev\Car-Auction-CSharp\CarAuction\CarAuction\obj\Debug\CarAuction.csprojResolveAssemblyReference.cache
+C:\opt\gitdev\Car-Auction-CSharp\CarAuction\CarAuction\obj\Debug\CarAuction.csproj.CoreCompileInputs.cache
+C:\opt\gitdev\Car-Auction-CSharp\CarAuction\CarAuction\obj\Debug\CarAuction.dll
+C:\opt\gitdev\Car-Auction-CSharp\CarAuction\CarAuction\obj\Debug\CarAuction.pdb

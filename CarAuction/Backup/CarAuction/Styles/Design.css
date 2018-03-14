@@ -1,0 +1,84 @@
+﻿body
+{
+}
+
+.pure-u-1.header 
+{
+    margin-bottom: 50px;
+}
+
+#pure-menu-horizontal
+{
+    position:static;
+    top: 100px;
+}
+
+#AgeRegistration
+{
+    display: inline;
+    list-style: none;    
+}
+
+#pure-menu-horizontal li
+{
+    display: inline;
+    list-style: none;
+    padding-right: 30px;
+}
+
+.pure-button pure-button-primary
+{
+    border: 4px;
+    background: rgb(66, 184, 221);
+}
+
+.pure-form-login legend
+{
+    font-size: large;
+}
+
+.pure-form-login
+{
+    /*width: 500px;
+    left: 500px;
+    top: 0px;*/
+}
+
+.pure-form-login fieldset input
+{
+    padding-right: 10px;
+}
+
+.pure-form-login fieldset label
+{
+    padding-right: 10px;
+}
+
+#RegistrationForm
+{
+    width: 875px;
+    height: 192px;
+}
+
+#UserName
+{
+    width: 1200px;
+}
+
+.style1
+{
+    text-align: right;
+    width: 118px;
+}
+.style2
+{
+    width: 56px;
+}
+.style3
+{
+    width: 271px;
+}
+.style4
+{
+    width: 169px;
+}
