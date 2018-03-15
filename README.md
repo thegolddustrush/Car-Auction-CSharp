@@ -1,7 +1,7 @@
 Car-Auction-CSharp
 ==================
 
-C# project(CTI)
+Simple Car Auction
 
 Adapted from project https://github.com/DarianJeptha/Car-Auction-CSharp
 
